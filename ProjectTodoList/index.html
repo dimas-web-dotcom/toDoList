@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDoList</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
+<body class="bg-[#F5F7F8]">
+
+    <div class="max-w-md mx-auto">
+        <section class="px-9 pt-5 box-border">
+            <div class="flex justify-between">
+                <div>
+                    <P>hello michael</P>
+                    <h4 class="font-bold text-2xl">Your <br> projects</h4>
+                </div>
+                <div class="profile">
+                    <div class="w-14 h-14 rounded-full bg-slate-400 overflow-hidden">
+                        <img src="img/DIMAS SETIAWAN RISTEK.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container flex justify-start pt-5">
+                <div>
+                    <h2 class="font-extrabold text-2xl">New Task</h2>
+        
+                    <span class="font-medium">title</span><br>
+                    <input type="text" placeholder="input title" class="title py-3 px-2 outline-none bg-[#D9D9D9] rounded-lg mb-4"><br>
+                    <span class="font-medium">Date</span><br>
+                    <input type="date" name="" id="" class="date py-3 px-8 bg-[#D9D9D9] rounded-lg outline-none mb-4"><br>
+                    <span class="font-medium">Description</span><br>
+                    <input type="text" class="desc py-3 px-2 outline-none bg-[#D9D9D9] rounded-lg" placeholder="Description">
+                </div>
+                <div class="flex justify-end items-end">
+                    <button class="add-button ml-5 px-6 py-1 bg-[#2185D5] rounded-md text-white">+</button>
+                </div>
+            </div>
+        </section>
     
+        <section class="toDoList p-5">
+            
+        </section>
+    </div>
+
+    
+
+    <div class="px-5 py-1 bg-[#43C55F] bg-[#2185D5] bg-[#a74242] rounded-md text-white font-medium hidden text-justify font-semibold text-lg italic text-xs text-sm"></div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
